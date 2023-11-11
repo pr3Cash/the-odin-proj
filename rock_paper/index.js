@@ -1,5 +1,24 @@
-const playerSelection= prompt();
+//const playerSelection= prompt();
 const computerSelection= getComputerChoice();
+const body = document.querySelector('body')
+
+const btn1 = document.createElement('button');
+const btn2 = document.createElement('button');
+const btn3 = document.createElement('button');
+
+const div = document.createElement('div');
+body.appendChild(btn1);
+
+btn1.addEventListener('click',function(){
+   playRound();
+})
+btn2.addEventListener('click',function(){
+   playRound();
+})
+btn3.addEventListener('click',function(){
+   playRound();
+})
+
 
 function getComputerChoice(){
    const ran = Math.floor(Math.random()*3);
