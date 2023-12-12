@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(123, 224, 64);
+}
+.container{
+    max-width: 45vh;
+    height: 45vh;
+    border-radius: 100vh;
+    margin: 15vh auto 0 auto;
+    background-color: rgb(192, 190, 202);
+    border: 2px solid black;
+    box-shadow: 10px 10px 43px 17px rgba(53,53,53,1);
+}
+#display{
+    border-radius: 100px 100px 100px 100px;
+    margin: 50px 100px 5px 95px;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 30px;
+    background-color: black;
+    color: green;
+    font-family:'Courier New', Courier, monospace;
+}
+.buttons{
+    margin: 0px 5vh;
+    display: grid;
+    /*border-bottom: 1px solid #999;
+    border-left: 1px solid #999;*/
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    
+}
+.buttons > button{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    
+    
+}
+.btn{
+    width: 5vh;
+    height: 5vh;
+
+    border-radius: 150px;
+    border: 0.5px solid #999;
+    line-height: 10px;
+    text-align: center;
+    cursor: pointer;
+    
+    color: #3CB5FF;
+    
+    margin: 0.2vh 1.8vh;
+    font-weight: bolder;
+    font-size: 2vh;
+}
+
+#equal{
+    background-color: #5555ff;
+    color: white;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+#clrbtn{
+    background-color: #922aaf;
+    color: white;
+}
+
+#delbtn{
+    background-color: #11566f;
+    color: white;
+}
